@@ -58,3 +58,8 @@ def find_a(strings)
   end
   starts_with_a
 end
+
+def sum_array(array)
+
+  sum = array.inject { |sum, n| sum + n }
+end
