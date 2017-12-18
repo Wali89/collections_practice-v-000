@@ -50,5 +50,5 @@ end
 
 def find_a(strings)
   strings.map { |string| string.start_with?(a) }
-  
+
 end
