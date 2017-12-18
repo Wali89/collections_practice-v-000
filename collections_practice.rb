@@ -23,8 +23,15 @@ def sort_array_char_count(words)
 end
 
 def swap_elements(array)
-  
+
   array[1], array[2] = array[2], array[1]
   array
-  
+
+end
+
+def swap_elements_from_to(array, a, b)
+
+  array[a], array[b] = array[b], array[a]
+  array
+
 end
