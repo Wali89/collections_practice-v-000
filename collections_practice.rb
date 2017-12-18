@@ -30,8 +30,8 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array, a, b)
-  from = a.to_i + 1
-  to = b.to_i + 1
+  from = a.to_i - 1
+  to = b.to_i - 1
   array[from], array[to] = array[to], array[from]
   array
 
