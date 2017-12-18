@@ -1,5 +1,5 @@
 def sort_array_asc(integers)
-  
+
   integers.sort do |a, b|
     a <=> b
   end
@@ -7,7 +7,7 @@ def sort_array_asc(integers)
 end
 
 def sort_array_desc(integers)
-  
+
   integers.sort do |a, b|
     b <=> a
   end
