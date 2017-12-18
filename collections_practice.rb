@@ -51,7 +51,7 @@ end
 def find_a(strings)
   starts_with_a = []
   strings.map do |string|
-    if string.starts_with?('a')
+    if string.start_with?('a')
       starts_with_a << string
 
     end
