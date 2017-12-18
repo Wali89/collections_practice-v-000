@@ -49,6 +49,6 @@ strings.each { |string| string[2] = "$" }
 end
 
 def find_a(strings)
-  strings.map { |string| string.start_with?(a) }
+  strings.map { |string| string.start_with?("a") }
 
 end
