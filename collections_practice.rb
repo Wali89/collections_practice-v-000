@@ -36,3 +36,8 @@ def swap_elements_from_to(array, a, b)
   array
 
 end
+
+def reverse_array(array)
+  array.reverse
+
+end
