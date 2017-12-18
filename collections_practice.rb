@@ -42,8 +42,13 @@ def reverse_array(array)
   new_array
 end
 
-##
+#Ke$ha
 def kesha_maker(strings)
 strings.each { |string| string[2] = "$" }
 
+end
+
+def find_a(strings)
+  strings.map { |string| string.start_with?(a) }
+  
 end
